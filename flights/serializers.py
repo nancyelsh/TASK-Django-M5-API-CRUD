@@ -23,8 +23,3 @@ class BookingUpdateSerializer(serializers.ModelSerializer):
     class Meta:
         model = Booking
         fields = ["date", "passengers"]
-
-class BookingDeleteSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Booking
-        fields = "__all__"
